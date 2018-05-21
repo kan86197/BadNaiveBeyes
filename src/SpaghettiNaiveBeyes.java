@@ -8,7 +8,7 @@ import java.util.TreeMap;
 
 public class SpaghettiNaiveBeyes {
 	public static void main(String[] args) {
-		File f =  new File("C:\\Users\\kaniup\\Downloads\\realtrainset.csv");
+		File f =  new File("C:\\Users\\anklebreaker1875\\Desktop\\MLData\\TrainingSet.csv");
 		TreeMap<String, Integer> probTable = new TreeMap<String, Integer>();
 		TreeMap<String, Double> positiveProbTable = new TreeMap<String, Double>();
 		TreeMap<String, Double> negativeProbTable = new TreeMap<String, Double>();
@@ -74,7 +74,7 @@ public class SpaghettiNaiveBeyes {
 
 
 
-		File file =  new File("C:\\Users\\kaniup\\Downloads\\Testset DM - Sheet1 (1).csv");
+		File file =  new File("C:\\Users\\anklebreaker1875\\Desktop\\MLData\\Testset.csv");
 		try {
 			String [] input;
 			BufferedReader secReader = new BufferedReader(new FileReader(file));
